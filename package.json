@@ -1,8 +1,8 @@
 {
   "name": "eshop-games",
-  "version": "1.0.3",
-  "description": "Crawler for Nintendo Switch eShop.",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Nintendo Switch eShop Games.",
+  "main": "server.js",
   "author": "eleazar0425",
   "license": "Apache-2.0",
   "dependencies": {
