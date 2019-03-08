@@ -6,7 +6,9 @@
   "author": "eleazar0425",
   "license": "Apache-2.0",
   "dependencies": {
+    "cron": "^1.6.0",
     "express": "^4.15.3",
-    "nintendo-switch-eshop": "^2.0.1"
+    "nintendo-switch-eshop": "^2.0.1",
+    "request": "^2.88.0"
   }
 }
