@@ -45,4 +45,4 @@ var cronJob = cron.job('* */12 * * * *', function(){
     })
     console.info('cron job completed');
 }); 
-cronJob.start();
+//cronJob.start();
