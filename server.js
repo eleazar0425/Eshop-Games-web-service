@@ -31,7 +31,7 @@ app.listen(port)
 
 console.log('Server running at port:'+port);
 var cron = require('cron');
-var cronJob = cron.job('0 */12 * * * *', function(){
+var cronJob = cron.job('0 1,13 * * *', function(){
     repository.getGamesAmerica().then(function(results){
         results.forEach(game => {
             if(game.hasOwnProperty('sale_price')){
